@@ -1,0 +1,27 @@
+/* Write your code here: */
+/* 1) Group Combining Rule */
+h1,
+h2 {
+  color: blueviolet;
+}
+
+/* 2) Child Combining Rule */
+.box > p {
+  color: red;
+}
+
+/* 3) Descendent Combining Rule */
+.box li {
+  color: blue;
+}
+
+/* 4) Chaining Combining Rule */
+li.done {
+  color: seagreen;
+}
+
+/* 5) Combining Combiners Rule */
+ul p.done {
+  color: crimson;
+  font-size: 2rem;
+}
